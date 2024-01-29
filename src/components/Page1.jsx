@@ -9,7 +9,6 @@ const Page1 = () => {
    <div className='bg-black h-full'>
     <h1 className='text-white text-8xl text-center justify-center pt-64 pb-64'>"Embrace your uniqueness"</h1>
    </div>
-   <div className='bg-white h-5'></div>
    <div className='bg-gradient-to-b from-sky-400 to-slate-50 h-full py-56'>
     <p className='text-5xl text-center my-2'>Bring your talents to AI CHEFMASTER</p>
     <p className='text-5xl text-center my-2'>and help us create the future of</p>
