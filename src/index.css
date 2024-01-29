@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this CSS to your component's stylesheet or a global stylesheet */
+/* Add this CSS to your component's stylesheet or a global stylesheet */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
