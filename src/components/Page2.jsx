@@ -2,14 +2,20 @@ import React from 'react'
 import GredientText from './GradientText'
 import GredientTextReverse from './GradientTextReverse'
 import {  Typography,Button } from "@material-tailwind/react";
+import RD from './RD.png'
+import Technology from './Technology.png'
+import Sale from './Sale.png'
+import Design from './Design.png'
+import Internships from './Internships.png'
+import img2 from './img2.png'
 import work from './work.jpg'
-
+import operations from './operations.png'
 
 const Page2 = () => {
   return (
     <>
     <div className='h-full py-52'>
-    <h1 className='font-medium text-6xl flex justify-center py-5'>Life at AI Chef Master</h1>
+    <h1 className='font-medium text-7xl flex justify-center py-5 font-sans'>Life at AI Chef Master</h1>
     <GredientText className="text-6xl flex justify-center py-2">Join our community</GredientText>
     <GredientTextReverse className="text-6xl flex justify-center py-2">and Become a Member.</GredientTextReverse>
     <p className='flex justify-center text-4xl pt-2 py-2'>"Embark on a journey with us, where your presence isn't </p>
@@ -18,9 +24,9 @@ const Page2 = () => {
     <a className='text-indigo-800 flex justify-center text-3xl transform transition duration-500 hover:scale-110 py-5' href="#">Learn More about AI Chefmaster 🡪</a>
    </div>
    <div className="relative h-full w-full">
-        <img
-          src={work}
-          className="h-full w-full"
+        <img 
+          src={img2}
+          className="h-full w-full opacity-80"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/40">
           <div className="w-3/4 text-center md:w-2/4">
@@ -31,7 +37,7 @@ const Page2 = () => {
             >
               "Unlock your potential, be authentic, and thrive at AI Chef master"
               <br />
-              <a className='text-blue-800 text-3xl' href="">Learn More about Operations 🡪</a>
+              <a className='text-indigo-800 text-3xl' href="">Learn More about Operations 🡪</a>
             </Typography>
             
           </div>
@@ -45,24 +51,24 @@ const Page2 = () => {
     <div>
 
     <div className='flex bg-white justify-around'>
-        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-indigo-500/20 mb-10 transform transition duration-500 hover:scale-110 border-6 rounded">
-          <img className='h-64 mt-1' src={work} alt='AIimage' />
+        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-gray-700 mb-10 transform transition duration-500 hover:scale-110 border-6 rounded">
+          <img className='h-64 mt-1' src={operations} />
           
           <div className="flex gap-4 justify-center">
             <Button className='bg-white w-full h-16 text-indigo-700 text-2xl'> Operations 🡪</Button>
           </div>
         </div>
 
-        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-indigo-500/20 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
-          <img className='h-64 mt-1' src={work} alt='AIimage' />
+        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-gray-700 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
+          <img className='h-64 mt-1' src={RD}  />
           
           <div className="flex gap-4 justify-center">
             <Button className='bg-white w-full h-16 text-indigo-700 text-2xl'>R & D 🡪</Button>
           </div>
         </div>
 
-        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-indigo-500/20 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
-          <img className='h-64 mt-1' src={work} alt='AIimage' />
+        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-gray-700 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
+          <img className='h-64 mt-1' src={Technology}  />
           
           <div className="flex gap-4 justify-center">
             <Button className='bg-white w-full h-16 text-indigo-700 text-2xl'>Technology 🡪</Button>
@@ -70,24 +76,24 @@ const Page2 = () => {
         </div>
       </div>
       <div className='flex bg-white justify-around mt-5'>
-      <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-indigo-500/20 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
-          <img className='h-64 mt-1' src={work} alt='AIimage' />
+      <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-gray-700 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
+          <img className='h-64 mt-1' src={Sale}  />
           
           <div className="flex gap-4 justify-center">
             <Button className='bg-white w-full h-16 text-indigo-700 text-2xl'> Sale & marketing 🡪</Button>
           </div>
         </div>
 
-        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-indigo-500/20 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
-          <img className='h-64 mt-1' src={work} alt='AIimage' />
+        <div className="w-80 h-80 bg-gray-200 shadow-lg shadow-gray-700 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
+          <img className='h-64 mt-1' src={Design}  />
           
           <div className="flex gap-4 justify-center">
             <Button className='bg-white w-full h-16 text-indigo-700 text-2xl'> Design 🡪</Button>
           </div>
         </div>
 
-        <div className="w-80 h-80 bg-gray-300 shadow-lg shadow-indigo-500/20 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
-          <img className='h-64 mt-1' src={work} alt='AIimage' />
+        <div className="w-80 h-80 bg-gray-300 shadow-lg shadow-gray-700 rounded-lg mb-10 transform transition duration-500 hover:scale-110">
+          <img className='h-64 mt-1' src={Internships}  />
           
           <div className="flex gap-4 justify-center">
             <Button className='bg-white w-full h-16 text-indigo-700 text-2xl'> Internships 🡪</Button>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Typography } from "@material-tailwind/react";
-import work from './work.jpg'
+import img1 from './img1.png'
 import { Button } from "@material-tailwind/react";
 
 const Page1 = () => {
@@ -25,10 +25,10 @@ const Page1 = () => {
     <a className='text-indigo-700 flex justify-center text-4xl py-3 transform transition duration-500 hover:scale-110'href="#">Work at AI Chef Master 🡪</a>
    </div>
    <div>
-      <div className="relative h-full w-full">
+      <div className="relative  w-full">
         <img
-          src={work}
-          className="h-full w-full object-cover"
+          src={img1}
+          className="h-full w-full opacity-80"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/40">
           <div className="w-3/4 text-center md:w-2/4">
@@ -41,7 +41,7 @@ const Page1 = () => {
               AI chef master, blending code and cuisine in a perfect harmony
               of taste and tech."
               <br />
-              <a className='text-blue-800 text-3xl transform transition duration-500 hover:scale-110' href="">Learn More about Technology 🡪</a>
+              <a className='text-indigo-800 text-3xl transform transition duration-500 hover:scale-110' href="">Learn More about Technology 🡪</a>
             </Typography>
             
           </div>
