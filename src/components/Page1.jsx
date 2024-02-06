@@ -25,10 +25,10 @@ const Page1 = () => {
     <a className='text-indigo-700 flex justify-center text-4xl py-3 transform transition duration-500 hover:scale-110'href="#">Work at AI Chef Master 🡪</a>
    </div>
    <div>
-      <div className="relative  w-full">
+      <div className="h-2/5 relative  w-full">
         <img
           src={img1}
-          className="h-full w-full opacity-80"
+          className="h-1/8 w-full opacity-80"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/40">
           <div className="w-3/4 text-center md:w-2/4">
